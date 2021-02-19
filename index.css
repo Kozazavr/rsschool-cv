@@ -1,21 +1,21 @@
 .page {
-    background-image: url('../page_background.jpg');
+    background-image: url('image/page_background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 } 
 
 .page__container {
-  max-width: 900px;
-  min-height: 1100px;
-  box-sizing: border-box;
-  padding: 30px;
-  font-family: sans-serif;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 0 auto;
-  background-color: #ffffff; 
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    max-width: 900px;
+    min-height: 1100px;
+    box-sizing: border-box;
+    padding: 30px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: #ffffff; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .aside {
