@@ -1,5 +1,5 @@
 .page {
-    background-image: url('./image/page_background.jpg');
+    background-image: url('image/page_background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 } 
