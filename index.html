@@ -8,15 +8,15 @@
     <title>Document</title>
 </head>
 <body class="page">
-    <div class="page__container">
-        <section class="aside">
-            <div class="aside__photo-container">
+    <main class="page__container">
+        <aside class="aside">
+            <figure class="aside__photo-container">
                 <img src="image/photo.jpg" alt="myPhoto" class="aside__photo" />
-            </div>
+            </figure>
             <div class="aside__contacts">
                 <h3 class="aside__title">Contacts</h3>
                 <ul class="list aside__contacts-list">
-                    <li class="item-list aside__list-item">email: </> sohee@yandex.ru</li>
+                    <li class="item-list aside__list-item">email: sohee@yandex.ru</li>
                     <li class="item-list aside__list-item">tel: +7(911) 718-70-93</li>
                 </ul>
             </div>
@@ -40,7 +40,8 @@
                 </ul>
             </div>
             <h3 class="aside__title">Experience</h3>
-            <ul class="list">Learning projects:
+            <p class="aside__subtitile">Learning projects:</p>
+            <ul class="list">
                 <li class="item-list">
                     <a class="aside__experience-link" href="https://kozazavr.github.io/russian-travel/" target="blank">russian-travels</a>
                 </li>
@@ -52,7 +53,7 @@
                 <h3 class="aside__title aside__english-title">English language</h3>
                 <p class="aside__english-text">A2</p>
             </div>
-        </section>
+        </aside>
         <section class="main">
             <div class="main__name">
                 <h1 class="main__title">Anna Chechel</h1>
@@ -61,8 +62,8 @@
             <h2 class="main__subtitle">About me</h2>
             <div class="main__about">
                 <p class="main__about-paragraph">I want to be a programmer, 
-                I am motivated and focused on results. <br/>
-                I devote all my free time to studying and get great pleasure from it!</br>
+                I am motivated and focused on results. <br>
+                I devote all my free time to studying and get great pleasure from it!<br>
                 At the moment I work as an accountant, this work also requires a lot of time,
                 focus and constant updating of knowledge, so it really interferes with my training!
                 My goal is to change my profession and become the best web developer!
@@ -73,9 +74,9 @@
             <pre class="main__about-code-container"><code>
             const isPP = function(n){
                 let arr = [];
-                for(let i = 2; i < n; i++) {
+                for(let i = 2; i &lt; n; i++) {
                     let j = 2, m = 2;
-                    while(m < n) {
+                    while(m &lt; n) {
                         m = i ** j;
                         if(m === n) {
                             arr.push(i);
@@ -103,6 +104,6 @@
                 </ul>
             </div>
         </section>
-    </div>
+    </main>
 </body>
 </html>
