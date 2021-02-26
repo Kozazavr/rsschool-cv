@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" /> 
+    <title>Document</title>
+</head>
+<body class="page">
+    <main class="page__container">
+        <aside class="aside">
+            <figure class="aside__photo-container">
+                <img src="image/photo.jpg" alt="myPhoto" class="aside__photo" />
+            </figure>
+            <div class="aside__contacts">
+                <h3 class="aside__title">Contacts</h3>
+                <ul class="list aside__contacts-list">
+                    <li class="item-list aside__list-item">email: sohee@yandex.ru</li>
+                    <li class="item-list aside__list-item">tel: +7(911) 718-70-93</li>
+                </ul>
+            </div>
+            <div class="aside__skills">
+                <h3 class="aside__title">Skills</h3>
+                <ul class="list aside__skills-list">
+                    <li class="item-list">JS</li>
+                    <li><input type="range" disabled value="0" max="100" class="range__skills range__skills_js"/></li>
+                    <li class="item-list">HTML, CSS</li>
+                    <li><input type="range" disabled value="0" max="100" class="range__skills range__skills_html"/></li>
+                    <li class="item-list">Figma</li>
+                    <li><input type="range" disabled value="0" max="100" class="range__skills range__skills_figma"/></li>
+                    <li class="item-list">GIT</li>
+                    <li><input type="range" disabled value="0" max="100" class="range__skills range__skills_git"/></li>
+                    <li class="item-list">React</li>
+                    <li><input type="range" disabled value="0" max="100" class="range__skills range__skills_react"/></li>
+                    <li class="item-list">Express</li>
+                    <li><input type="range" disabled value="0" max="100" class="range__skills range__skills_express"/></li>
+                    <li class="item-list">MongoDB</li>
+                    <li><input type="range" disabled value="0" max="100" class="range__skills range__skills_mongodb"/></li>
+                </ul>
+            </div>
+            <h3 class="aside__title">Experience</h3>
+            <p class="aside__subtitile">Learning projects:</p>
+            <ul class="list">
+                <li class="item-list">
+                    <a class="aside__experience-link" href="https://kozazavr.github.io/russian-travel/" target="blank">russian-travels</a>
+                </li>
+                <li class="item-list">
+                    <a class="aside__experience-link" href="https://kozazavr.github.io/mesto/" target="blank">mesto</a>
+                </li>
+            </ul>
+            <div class="aside__english">
+                <h3 class="aside__title aside__english-title">English language</h3>
+                <p class="aside__english-text">A2</p>
+            </div>
+        </aside>
+        <section class="main">
+            <div class="main__name">
+                <h1 class="main__title">Anna Chechel</h1>
+                <p class="main__text">Junior Frontend Developer</p>
+            </div>
+            <h2 class="main__subtitle">About me</h2>
+            <div class="main__about">
+                <p class="main__about-paragraph">I want to be a programmer, 
+                I am motivated and focused on results. <br>
+                I devote all my free time to studying and get great pleasure from it!<br>
+                At the moment I work as an accountant, this work also requires a lot of time,
+                focus and constant updating of knowledge, so it really interferes with my training!
+                My goal is to change my profession and become the best web developer!
+                </p>
+            </div>
+            <h2 class="main__subtitle">Code examples</h2>
+            <p class="main__about-code">Perfect power:</p>
+            <pre class="main__about-code-container"><code>
+            const isPP = function(n){
+                let arr = [];
+                for(let i = 2; i &lt; n; i++) {
+                    let j = 2, m = 2;
+                    while(m &lt; n) {
+                        m = i ** j;
+                        if(m === n) {
+                            arr.push(i);
+                            arr.push(j); 
+                            return arr;
+                        }
+                        j++;
+                    }
+                }
+                return null; 
+            }
+            </code></pre>
+            <div class="main__education">
+                <h2 class="main__subtitle">Education</h2>
+                <ul class="list main__education-list">
+                    <li class="item-list main__list-item">
+                        <span class="main__list-item-bold">Tyumen State University (2002-2007):</span> Faculty of Finance and Economics
+                    </li>
+                    <li class="item-list main__list-item">
+                        <span class="main__list-item-bold">ALIBRASCHOOL(2017):</span> English courses in St.Petersburg
+                    </li>
+                    <li class="item-list main__list-item">
+                        <span class="main__list-item-bold">Yandex.Praktikum(2019 - present):</span> online web development training courses
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
